@@ -21,8 +21,10 @@ class CardList extends LitElement {
   render() {
     return html`
       <main>
-        <vehicle-info-card
-          ><p slot="vehicleDescription">
+        <vehicle-info-card>
+          <h2 slot="subtitle">Ethan Chen</h2>
+
+          <p slot="vehicleDescription">
             The image above is a Tacoma pickup truck made by the Japanese
             automaker Toyota. Toyota has been making the Tacoma pickup truck
             since 1995. The Tacoma has two engines options: 2.7-liter 4-Cylinder
@@ -47,6 +49,7 @@ class CardList extends LitElement {
           topText="Vroom"
           bottomText="Vroom"
         >
+          <h2 slot="subtitle">GRRRRR</h2>
           <p slot="vehicleDescription">I want this car</p>
         </vehicle-info-card>
 
@@ -71,6 +74,7 @@ class CardList extends LitElement {
           topText="THE"
           bottomText="MK7"
         >
+          <h2 slot="subtitle">THE VW</h2>
           <p slot="vehicleDescription">
             I also like this car
           </p></vehicle-info-card
@@ -96,7 +100,9 @@ class CardList extends LitElement {
           img="https://hips.hearstapps.com/hmg-prod/images/2021-honda-civic-type-r-mmp-1-1596639951.jpg"
           topText="TYPE"
           bottomText="R"
-          ><p slot="vehicleDescription">Cool looking car</p></vehicle-info-card
+        >
+          <h2 slot="subtitle">I am a Honda Guy</h2>
+          <p slot="vehicleDescription">Cool looking car</p></vehicle-info-card
         >
 
         <city-card
@@ -119,7 +125,9 @@ class CardList extends LitElement {
           img="https://images.hgmsites.net/hug/2022-hyundai-elantra_100820735_h.jpg"
           topText="Slick"
           bottomText="Looking Car"
-          ><p slot="vehicleDescription">
+          >
+          <h2 slot="subtitle">That is an Elantra?!?!?</h2>
+          <p slot="vehicleDescription">
             I like the exterior of this car
           </p></vehicle-info-card
         >
