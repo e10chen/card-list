@@ -109,6 +109,21 @@ class CardList extends LitElement {
           topText="Slick"
           bottomText="Looking Car"
         ></vehicle-info-card>
+
+        <city-card
+          class="cardImplementationFourcity"
+          title="Boston"
+          image="https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg"
+          topLabel="Bostonians Think They're just so much better"
+        >
+          <ul slot="stats">
+            <li>State: Massachusetts</li>
+            <li>Crime Rate: 216 per 100000</li>
+            <li>Boston accent: Yes</li>
+            <li>Things to Do: Throw Tea in the River</li>
+          </ul>
+        </city-card>
+
       </main>
     `;
   }
