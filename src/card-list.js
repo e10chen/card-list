@@ -21,7 +21,15 @@ class CardList extends LitElement {
   render() {
     return html`
       <main>
-        <vehicle-info-card></vehicle-info-card>
+        <vehicle-info-card
+          ><p slot="vehicleDescription">
+            The image above is a Tacoma pickup truck made by the Japanese
+            automaker Toyota. Toyota has been making the Tacoma pickup truck
+            since 1995. The Tacoma has two engines options: 2.7-liter 4-Cylinder
+            and the 3.5-liter V6. It has a miles per gallon of 20 in the city
+            and 23 on the highway.
+          </p></vehicle-info-card
+        >
 
         <city-card>
           <ul slot="stats">
@@ -35,11 +43,12 @@ class CardList extends LitElement {
         <vehicle-info-card
           class="cardImplementationOnevehicle"
           modelName="Toyota GR Corolla"
-          vehicleDescription="I like this car"
           img="https://hips.hearstapps.com/hmg-prod/images/2023-toyota-gr-corolla-111-1648581910.jpg"
           topText="Vroom"
           bottomText="Vroom"
-        ></vehicle-info-card>
+        >
+          <p slot="vehicleDescription">I want this car</p>
+        </vehicle-info-card>
 
         <city-card
           class="cardImplementationOnecity"
@@ -58,11 +67,14 @@ class CardList extends LitElement {
         <vehicle-info-card
           class="cardImplementationTwovehicle"
           modelName="Volkswagen Golf GTI MK7"
-          vehicleDescription="I also like this car"
           img="https://www.topgear.com/sites/default/files/cars-car/image/2019/12/images_original_15164-volkswagengolfgtiperformance.jpg"
           topText="THE"
           bottomText="MK7"
-        ></vehicle-info-card>
+        >
+          <p slot="vehicleDescription">
+            I also like this car
+          </p></vehicle-info-card
+        >
 
         <city-card
           class="cardImplementationTwocity"
@@ -81,11 +93,11 @@ class CardList extends LitElement {
         <vehicle-info-card
           class="cardImplementationThreevehicle"
           modelName="Honda Civic Type R"
-          vehicleDescription="Cool looking car"
           img="https://hips.hearstapps.com/hmg-prod/images/2021-honda-civic-type-r-mmp-1-1596639951.jpg"
           topText="TYPE"
           bottomText="R"
-        ></vehicle-info-card>
+          ><p slot="vehicleDescription">Cool looking car</p></vehicle-info-card
+        >
 
         <city-card
           class="cardImplementationThreecity"
@@ -104,11 +116,13 @@ class CardList extends LitElement {
         <vehicle-info-card
           class="cardImplementationFourvehicle"
           modelName="Hyundai Elantra N"
-          vehicleDescription="I like the exterior of this car"
           img="https://images.hgmsites.net/hug/2022-hyundai-elantra_100820735_h.jpg"
           topText="Slick"
           bottomText="Looking Car"
-        ></vehicle-info-card>
+          ><p slot="vehicleDescription">
+            I like the exterior of this car
+          </p></vehicle-info-card
+        >
 
         <city-card
           class="cardImplementationFourcity"
@@ -123,7 +137,6 @@ class CardList extends LitElement {
             <li>Things to Do: Throw Tea in the River</li>
           </ul>
         </city-card>
-
       </main>
     `;
   }
