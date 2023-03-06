@@ -108,7 +108,7 @@ class CardList extends LitElement {
         <city-card
           class="cardImplementationThreecity"
           title="Kansas City"
-          image="https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg"
+          image="https://tourscanner.com/blog/wp-content/uploads/2021/07/fun-things-to-do-in-Kansas-City.jpg"
           topLabel="I like jazzzzzz"
         >
           <ul slot="stats">
@@ -135,7 +135,7 @@ class CardList extends LitElement {
         <city-card
           class="cardImplementationFourcity"
           title="Boston"
-          image="https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg"
+          image="https://web-assets.bcg.com/dims4/default/10b8897/2147483647/strip/true/crop/2880x1620+0+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fae%2F00%2Fa65a946245eb878b5d0df4bd1588%2Fboston-hero-image.jpg"
           topLabel="Bostonians Think They're just so much better"
         >
           <ul slot="stats">
