@@ -23,16 +23,15 @@ class CardList extends LitElement {
       <main>
         <vehicle-info-card>
           <h2 slot="subtitle">Ethan Chen</h2>
-
           <p slot="vehicleDescription">
             The image above is a Tacoma pickup truck made by the Japanese
             automaker Toyota. Toyota has been making the Tacoma pickup truck
             since 1995. The Tacoma has two engines options: 2.7-liter 4-Cylinder
             and the 3.5-liter V6. It has a miles per gallon of 20 in the city
             and 23 on the highway.
-          </p></vehicle-info-card
-        >
-
+          </p>
+        </vehicle-info-card>
+        
         <city-card>
           <ul slot="stats">
             <li>State: Pennsylvania</li>
@@ -125,7 +124,7 @@ class CardList extends LitElement {
           img="https://images.hgmsites.net/hug/2022-hyundai-elantra_100820735_h.jpg"
           topText="Slick"
           bottomText="Looking Car"
-          >
+        >
           <h2 slot="subtitle">That is an Elantra?!?!?</h2>
           <p slot="vehicleDescription">
             I like the exterior of this car
